@@ -1,0 +1,5 @@
+# Usamos una imagen ligera de Nginx
+FROM nginx:alpine
+
+# Copiamos nuestro HTML a la carpeta donde Nginx sirve contenido
+COPY index.html /usr/share/nginx/html/index.html
