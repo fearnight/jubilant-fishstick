@@ -1,5 +1,5 @@
 # First step: compilation - this step helps to reduce the image size
-FROM alpine:latest as builder
+FROM alpine:3.23.2 as builder
 RUN echo "checking files" > validate.txt
 
 # Second step: takes the information from the builder to not use all the image in order to
