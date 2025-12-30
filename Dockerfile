@@ -1,9 +1,10 @@
-# First step: compilation - this step helps to reduce the image size
-FROM alpine:3.23.2 as builder
-RUN echo "checking files" > validate.txt
+FROM python:3.9-alpine
 
-# Second step: takes the information from the builder to not use all the image in order to
-# help with the performance
-FROM nginx:alpine
-COPY --from=builder validate.txt /usr/share/nginx/html/status.txt
-COPY index.html /usr/share/nginx/html/index.html
+WORKDIR /code
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY application.py .
+
+CMD [ "python", "application.py" ]

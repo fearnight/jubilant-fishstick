@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  # Servicio 1: Nuestra aplicación web
+  web:
+    build: .
+    ports:
+      - "8000:5000" # Mapeamos el puerto 8000 de tu PC al 5000 del contenedor
+    depends_on:
+      - redis-db
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'    # Máximo 50% de un núcleo de CPU
+          memory: 128M    # Máximo 128 Megabytes de RAM
+        reservations:
+          memory: 64M     # Garantizar al menos 64MB
+
+  # Servicio 2: La base de datos
+  redis-db:
+    image: "redis:alpine"
+    # No hace falta exponer puertos, Docker crea una red interna entre ellos
