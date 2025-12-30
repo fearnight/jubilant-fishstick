@@ -2,7 +2,7 @@ from flask import Flask
 import redis
 import os
 
-app = Flask(__test__)
+app = Flask(__name__)
 
 # CONCEPTO CLAVE DE DEVOPS: 
 # Nos conectamos al host llamado 'redis-db'. 
