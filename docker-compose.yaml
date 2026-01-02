@@ -2,7 +2,7 @@ version: "3.9"
 services:
   # Servicio 1: Nuestra aplicación web
   web:
-    image: ivangarcia96/my-app:latest
+    image: ivangarcia96/mi-app:latest
     build: .
     ports:
       - "8000:5000" # Mapeamos el puerto 8000 de tu PC al 5000 del contenedor
