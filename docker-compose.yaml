@@ -23,7 +23,7 @@ services:
 
 
   watchtower:
-    image: containrrr/watchtower
+    image: containrrr/watchtower:latest
     container_name: vigilante_automatico
     restart: always
     volumes:
