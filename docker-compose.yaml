@@ -30,7 +30,8 @@ services:
       # ESTO ES LO MÁS IMPORTANTE:
       # Le damos acceso al "cerebro" de Docker del host para que pueda apagar/encender cosas.
       - /var/run/docker.sock:/var/run/docker.sock
-    
+    environment:
+      - DOCKER_API_VERSION=1.25
     # CONFIGURACIÓN DEL VIGILANTE:
     # --interval 30: Revisa si hay cambios cada 30 segundos (para pruebas rápidas)
     # --cleanup: Borra las imágenes viejas para no llenar el disco duro
