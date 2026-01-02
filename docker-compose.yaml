@@ -20,3 +20,18 @@ services:
   redis-db:
     image: "redis:alpine"
     # No hace falta exponer puertos, Docker crea una red interna entre ellos
+
+
+  watchtower:
+    image: containrrr/watchtower
+    container_name: vigilante_automatico
+    restart: always
+    volumes:
+      # ESTO ES LO MÁS IMPORTANTE:
+      # Le damos acceso al "cerebro" de Docker del host para que pueda apagar/encender cosas.
+      - /var/run/docker.sock:/var/run/docker.sock
+    
+    # CONFIGURACIÓN DEL VIGILANTE:
+    # --interval 30: Revisa si hay cambios cada 30 segundos (para pruebas rápidas)
+    # --cleanup: Borra las imágenes viejas para no llenar el disco duro
+    command: --interval 30 --cleanup
