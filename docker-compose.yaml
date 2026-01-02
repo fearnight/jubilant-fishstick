@@ -3,7 +3,6 @@ services:
   # Servicio 1: Nuestra aplicación web
   web:
     image: ivangarcia96/mi-app:latest
-    platform: linux/amd64
     build: .
     ports:
       - "8000:5000" # Mapeamos el puerto 8000 de tu PC al 5000 del contenedor
