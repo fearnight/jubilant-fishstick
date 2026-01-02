@@ -27,7 +27,7 @@ def index():
     return f"""
     <html>
         <body style="background-color: powderblue;">
-            <h1>Hola mundo! ya va Pipeline funcionando con Docker</h1>
+            <h1>Hola mundo! Pipeline funcionando con Docker</h1>
             <h2>Esta página ha sido vista {count} veces.</h2>
             <p>(Este dato viene de una base de datos Redis)</p>
         </body>
