@@ -26,7 +26,7 @@ def index():
     # Aquí devolvemos tu HTML pero con el dato dinámico inyectado
     return f"""
     <html>
-        <body style="background-color: powderblue;">
+        <body style="background-color: green;">
             <h1>Hola mundo! Pipeline funcionando con Docker</h1>
             <h2>Esta página ha sido vista {count} veces.</h2>
             <p>(Este dato viene de una base de datos Redis)</p>
