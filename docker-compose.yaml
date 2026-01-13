@@ -27,8 +27,6 @@ services:
     container_name: vigilante_automatico
     restart: always
     volumes:
-      # ESTO ES LO MÁS IMPORTANTE:
-      # Le damos acceso al "cerebro" de Docker del host para que pueda apagar/encender cosas.
       - /var/run/docker.sock:/var/run/docker.sock
       - /root/.docker/config.json:/config.json
     environment:
@@ -37,3 +35,28 @@ services:
     # --interval 30: Revisa si hay cambios cada 30 segundos (para pruebas rápidas)
     # --cleanup: Borra las imágenes viejas para no llenar el disco duro
     command: --interval 30 --cleanup
+  node-exporter:
+    image: prom/node-exporter:latest
+    container_name: node_exporter
+    restart: unless-stopped
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.rootfs=/rootfs'
+      - '--path.sysfs=/host/sys'
+      - '--collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)'
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+      - '3000:3000' # Puerto de acceso web
+    volumes:
+      - grafana_data:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin # ¡Cámbialo al entrar!
+    
