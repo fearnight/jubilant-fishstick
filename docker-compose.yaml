@@ -58,5 +58,9 @@ services:
       - grafana_data:/var/lib/grafana
     environment:
       - GF_SECURITY_ADMIN_USER=admin
-      - GF_SECURITY_ADMIN_PASSWORD=admin # ¡Cámbialo al entrar!
+      - GF_SECURITY_ADMIN_PASSWORD=admin 
+volumes:
+  portainer_data:
+  prometheus_data: 
+  grafana_data:    
     
