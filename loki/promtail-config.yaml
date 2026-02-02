@@ -13,7 +13,7 @@ scrape_configs:
     docker_sd_configs:
       - host: unix:///var/run/docker.sock
         refresh_interval: 5s
-        
+
     relabel_configs:
       - source_labels: ['__meta_docker_container_name']
         regex: '/(.*)'
@@ -21,12 +21,9 @@ scrape_configs:
       
       - source_labels: ['__meta_docker_container_id']
         target_label: 'container_id'
-
-    # Una vez tenemos el nombre, le decimos dónde está el archivo de log real
+        
     pipeline_stages:
-      - docker: {}  # Esto es un atajo que hace el JSON parse automáticamente
-
-    pipeline_stages:
+        - docker: {}
         - json:
             expressions:
               output: log
