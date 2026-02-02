@@ -86,6 +86,7 @@ services:
     image: grafana/promtail:latest
     container_name: promtail
     restart: unless-stopped
+    user: root
     volumes:
       - ./loki/promtail-config.yaml:/etc/promtail/config.yml
       - /var/lib/docker/containers:/var/lib/docker/containers:ro  
