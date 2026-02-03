@@ -95,6 +95,14 @@ services:
     command: -config.file=/etc/promtail/config.yml
     depends_on:
       - loki
+  dozzle:
+    image: amir20/dozzle:latest
+    container_name: dozzle
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock # Necesario para leer los otros contenedores
+    ports:
+      - "8080:8080" # Puedes cambiar el 8080 si lo tienes ocupado
 volumes:
   portainer_data:
   prometheus_data: 
