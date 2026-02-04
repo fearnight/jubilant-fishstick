@@ -116,6 +116,15 @@ services:
       - ./npm/letsencrypt:/etc/letsencrypt
     depends_on:
       - grafana    # Hace que primero arranque grafana
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    restart: unless-stopped
+    ports:
+      - 3005:3000  # Puerto externo 3005
+    volumes:
+      - ./homepage/config:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock # Vital para ver si los contenedores están vivos
 volumes:
   portainer_data:
   prometheus_data: 
