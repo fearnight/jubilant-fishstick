@@ -125,6 +125,8 @@ services:
     volumes:
       - ./homepage/config:/app/config
       - /var/run/docker.sock:/var/run/docker.sock # Vital para ver si los contenedores están vivos
+    environment:
+      HOMEPAGE_VAR_ALLOWED_HOSTS: "home.local,192.168.0.20,localhost"
 volumes:
   portainer_data:
   prometheus_data: 
