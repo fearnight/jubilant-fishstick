@@ -102,7 +102,20 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock # Necesario para leer los otros contenedores
     ports:
-      - "8080:8080" # Puedes cambiar el 8080 si lo tienes ocupado
+      - "8080:8080" 
+  npm:
+    image: 'jc21/nginx-proxy-manager:latest'
+    container_name: npm
+    restart: unless-stopped
+    ports:
+      - '80:80'    # Para tráfico HTTP normal
+      - '81:81'    # Para el Panel de Administración (¡Importante!)
+      - '443:443'  # Para tráfico HTTPS seguro
+    volumes:
+      - ./npm/data:/data
+      - ./npm/letsencrypt:/etc/letsencrypt
+    depends_on:
+      - grafana    # Hace que primero arranque grafana
 volumes:
   portainer_data:
   prometheus_data: 
