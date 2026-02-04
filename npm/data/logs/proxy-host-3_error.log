@@ -1,0 +1,3 @@
+2026/02/04 15:06:18 [error] 258#258: *1074 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.18, server: home.local, request: "GET / HTTP/1.1", upstream: "http://172.18.0.12:3005/", host: "home.local"
+2026/02/04 15:06:18 [error] 259#259: *1073 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.18, server: home.local, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.18.0.12:3005/favicon.ico", host: "home.local", referrer: "http://home.local/"
+2026/02/04 15:07:03 [error] 189#189: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.0.18, server: home.local, request: "GET / HTTP/1.1", upstream: "http://172.18.0.4:3005/", host: "home.local"

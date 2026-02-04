@@ -1,0 +1,37 @@
+- Mi Servidor:
+    - Grafana:
+        icon: grafana.png
+        href: http://grafana.local
+        description: Monitorización
+        server: my-docker # Esto conecta con el socket de docker
+        container: grafana # Nombre del contenedor
+        widget:
+          type: grafana
+          url: http://grafana:3000 # URL interna de docker
+          username: admin
+          password: 1234
+
+    - Portainer:
+        icon: portainer.png
+        href: http://portainer.local
+        description: Gestión Docker
+        server: my-docker
+        container: portainer
+        widget:
+          type: portainer
+          url: http://portainer:9000
+          env: 1
+          key: tu_token_de_portainer # (Opcional, si quieres ver stats)
+
+    - Logs (Dozzle):
+        icon: dozzle.png
+        href: http://dozzle.local
+        description: Logs en tiempo real
+        server: my-docker
+        container: dozzle
+
+    - Proxys (NPM):
+        icon: nginx-proxy-manager.png
+        href: http://192.168.0.20:81 # Aquí pon la IP porque aun no tiene dominio
+        server: my-docker
+        container: npm

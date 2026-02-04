@@ -1,0 +1,1 @@
+2026/02/04 15:16:37 [alert] 204#204: *1010 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "portainer.local", referrer: "http://portainer.local/"

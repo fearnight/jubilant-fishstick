@@ -1,1 +1,139 @@
 [2026-02-04T14:56:29.009Z] info: kubernetes.yaml was copied to the config folder
+[2026-02-04T15:07:37.345Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:07:37.458Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:07:37.479Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:07:37.484Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:07:37.486Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:07:37.495Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:07:37.499Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:07:37.510Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:07:37.512Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:07:37.515Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:07:37.516Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:07:37.517Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:08:01.177Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:08:01.189Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:08.135Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:08.140Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:50.289Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:50.303Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:51.323Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:51.332Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:51.346Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:51.352Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:51.377Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:51.384Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:51.387Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:51.391Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:51.393Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:51.395Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:51.400Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:10:51.406Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:46.725Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:46.735Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:48.617Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:48.621Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:48.627Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:48.630Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:48.635Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:48.642Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:48.644Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:48.649Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:48.651Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:48.654Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:48.657Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:13:48.664Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.689Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.697Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.873Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.877Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.881Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.884Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.888Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.893Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.898Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.902Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.905Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.907Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.909Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:46.914Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:47.890Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:47.894Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:47.900Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:47.908Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:47.912Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:47.915Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:47.921Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:47.927Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:14:47.937Z] error: Host validation failed for: 192.168.0.20:3005. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-02-04T15:16:25.558Z] info: bookmarks.yaml was copied to the config folder
+[2026-02-04T15:16:25.560Z] info: widgets.yaml was copied to the config folder
+[2026-02-04T15:16:25.560Z] info: custom.css was copied to the config folder
+[2026-02-04T15:16:25.561Z] info: custom.js was copied to the config folder
+[2026-02-04T15:16:25.570Z] info: proxmox.yaml was copied to the config folder
+[2026-02-04T15:16:26.159Z] error: <httpProxy> Error calling http://portainer:9000/api/endpoints/1/docker/containers/json...
+[2026-02-04T15:16:26.163Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo ENOTFOUND portainer] {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer'
+  }
+]
+[2026-02-04T15:16:26.163Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://portainer:9000/api/endpoints/1/docker/containers/json?all=1
+[2026-02-04T15:16:42.642Z] error: <httpProxy> Error calling http://portainer:9000/api/endpoints/1/docker/containers/json...
+[2026-02-04T15:16:42.646Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo ENOTFOUND portainer] {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer'
+  }
+]
+[2026-02-04T15:16:42.646Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://portainer:9000/api/endpoints/1/docker/containers/json?all=1
+[2026-02-04T15:18:43.748Z] error: <httpProxy> Error calling http://portainer:9000/api/endpoints/1/docker/containers/json...
+[2026-02-04T15:18:43.749Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo ENOTFOUND portainer] {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer'
+  }
+]
+[2026-02-04T15:18:43.749Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://portainer:9000/api/endpoints/1/docker/containers/json?all=1
+[2026-02-04T15:18:44.132Z] error: <httpProxy> Error calling http://portainer:9000/api/endpoints/1/docker/containers/json...
+[2026-02-04T15:18:44.133Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo ENOTFOUND portainer] {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer'
+  }
+]
+[2026-02-04T15:18:44.134Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://portainer:9000/api/endpoints/1/docker/containers/json?all=1
+[2026-02-04T15:19:15.720Z] error: <httpProxy> Error calling http://portainer:9000/api/endpoints/1/docker/containers/json...
+[2026-02-04T15:19:15.729Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo ENOTFOUND portainer] {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer'
+  }
+]
+[2026-02-04T15:19:15.729Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://portainer:9000/api/endpoints/1/docker/containers/json?all=1
+[2026-02-04T15:19:16.543Z] error: <httpProxy> Error calling http://portainer:9000/api/endpoints/1/docker/containers/json...
+[2026-02-04T15:19:16.544Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo ENOTFOUND portainer] {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'portainer'
+  }
+]
+[2026-02-04T15:19:16.544Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://portainer:9000/api/endpoints/1/docker/containers/json?all=1
