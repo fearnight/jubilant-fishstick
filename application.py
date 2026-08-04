@@ -4,7 +4,6 @@ import os
 
 app = Flask(__name__)
 
-# CONCEPTO CLAVE DE DEVOPS: 
 # Nos conectamos al host llamado 'redis-db'. 
 # Docker se encargará de traducir ese nombre a una IP interna automáticamente.
 cache = redis.Redis(host='redis-db', port=6379)
